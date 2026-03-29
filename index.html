@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>For My Love 💖</title>
+  <meta name="description" content="" />
+  <meta property="og:title" content="For my love" />
+  <meta property="og:description" content="" />
+  <meta property="twitter:title" content="For my love" />
+  <meta property="twitter:description" content="" />
+  <title>For my love</title>
   <style>
     :root {
       --bg-1: #fff5f8;
@@ -462,11 +467,11 @@
         <div class="hero">
           <div class="hero-icon">🥹</div>
           <h1>3andi lik wa7d so2al sghir...</h1>
-          <p class="subtitle">jawbini b sra7a, hit had lpage kamla tsawbat ghi 3la 9blk nti 💖</p>
+          <p class="subtitle">jawbini b sra7a, hit had lpage kamla tsawbat ghi 3lik nti 💖</p>
         </div>
 
         <div class="question-box">
-          <div class="question-label">so2al dyal l9alb</div>
+          <div class="question-label">so2al dyal l9lb</div>
           <p class="question" id="questionText">wach katbghini? 💘</p>
         </div>
 
@@ -485,10 +490,10 @@
         <div class="big-heart">💖</div>
         <h2>aaaah! kont 3aref 😍</h2>
         <p>
-          kont 3aref belli nti katbghini w ma9drach t9awmi had l9alb 😌<br>
-          daba khasna n7taflo, hit had "ah" 7lat lia nhari kamel wfr7at lya 9albi 💞
+          kont 3aref belli nti katbghini w ma9drach t9awmi had l9lb 😌<br>
+          daba khasna n7taflo, hit had "ah" 7lawt lia nhari kamel 💞
         </p>
-        <div class="footer-note">daba maba9ach blassa l "la" 😏</div>
+        <div class="footer-note">daba mab9ach blassa l "la" 😏</div>
       </div>
 
       <audio id="bgMusic" loop preload="auto">
@@ -503,8 +508,8 @@
       't2akdi? ra hadchi mohim bzaaf 😌',
       'rah ila glti la ghantkhassmo 🥺',
       'mazal bagha tgoli la? 😭',
-      'fakri mzyan, rah l9alb bayn 😏',
-      '3afak ah🙏... hadi hiya lw9ita zwina 💖',
+      'fakri mzyan, rah l9lb bayn 😏',
+      '3afak ah... hadi hiya l7lwa 💖',
       'yallah goli ah w salina 😌'
     ];
 
@@ -515,7 +520,7 @@
       'fakri mzyan',
       'fakri mzyan',
       'fakri mzyan',
-      '3afak ah🙏'
+      '3afak ah'
     ];
 
     const yesBtn = document.getElementById('yesBtn');
@@ -622,7 +627,7 @@
       updateQuestion();
       growYesButton();
       moveNoButtonPlayfully();
-      const nextLabel = noCount >= 6 ? '3afak ah🙏' : noLabels[Math.min(noCount, noLabels.length - 1)];
+      const nextLabel = noCount >= 6 ? '3afak ah' : noLabels[Math.min(noCount, noLabels.length - 1)];
       noBtn.textContent = nextLabel;
       if (noCount >= 6) {
         noBtn.style.left = '50%';
